@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+header{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./image-\(2\).png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Playfair Display', serif;
+
+}
+.container-in-which-the-logo-and-mini-navigation img{
+    padding-left: 150px ;
+    margin-top: 10px ;
+}
+.container-in-which-the-logo-and-mini-navigation p {
+   float: right;
+   margin: auto;
+   padding-right:  80px ;
+}
+.this-contains-the-site-title-info-and-button{
+    text-align: center;
+    margin-top: auto;
+    padding-top: 80px;
+}
+.this-contains-the-site-title-info-and-button button{
+    border: 1px solid red;
+   border-radius:20px;
+   margin: 20px;
+   padding-top: 7px ;
+   padding-bottom: 7px ;
+   padding-left: 26px ;
+   padding-right: 26px;
+   background-color: red;
+   color: white;
+}
+.there-is-a-rounded-picture-in-the-middle{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 150px;
+}
+.subtitle-here{
+    margin: auto;
+    padding-top: 40px;
+    text-align: center;
+    padding-left: 100px;
+    font-size: 32px;
+    font-weight: 0;
+}
+.the-container-in-wich-the-img-is-located{
+   float: right;
+   margin: auto;
+   padding-top: 80px;
+}
+.there-is-a-slogan-a-subtitle-and-a-desc{
+    margin: auto;
+    padding-left: 95px;
+    padding-top: 85px;
+    padding-right: 30px;
+}
+.this-div-has-an-icon-title-and-description{
+    margin: auto;
+    padding-left: 95px;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+.this-div-has-an-icon-title-and-description img{
+    float: left;
+    margin: auto;
+    padding-top: 17px;
+    padding-right: 30px;
+}
+.this-div-has-an-icon-title-and-description p{
+    padding-left: 51px;
+}
+.this-icon-title-sptinkling-which-are-located-next-to-the-picture{
+    margin: auto;
+    padding-left: 95px;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+.this-icon-title-sptinkling-which-are-located-next-to-the-picture img{
+    float: left;
+    margin: auto;
+    padding-top: 17px;
+    padding-right: 30px;
+}
+.this-icon-title-sptinkling-which-are-located-next-to-the-picture p{
+    padding-left: 51px;
+    font-size: 20px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 160px;
+    padding-left: 95px;
+    margin: auto;
+
+}
+.div-wich-contains-title-descrption-and-icon-1 img{
+    margin: auto;
+    float: left;
+    margin: auto;
+    padding-top: 6px;
+    padding-right: 30px;
+   
+}
+.div-wich-contains-title-descrption-and-icon-2 img{
+    margin: auto;
+    float: left;
+    margin: auto;
+    padding-top: 6px;
+    padding-right: 30px;
+   
+}
+.div-wich-contains-title-descrption-and-icon-3 img{
+    margin: auto;
+    float: left;
+    margin: auto;
+    padding-top: 6px;
+    padding-right: 30px;
+   
+}
+.div-wich-contains-title-descrption-and-icon-4 img{
+    margin: auto;
+    float: left;
+    margin: auto;
+    padding-top: 6px;
+    padding-right: 30px;
+}
+.div-wich-contains-title-descrption-and-icon-1 p{
+padding-left: 51px;
+padding-right: 1px;
+margin: auto;
+font-size: 20px;
+}
+.div-wich-contains-title-descrption-and-icon-2 p{
+    padding-left: 51px;
+    padding-right: 1px;
+    margin: auto;
+    font-size: 20px;
+    }
+    .div-wich-contains-title-descrption-and-icon-3 p{
+        padding-left: 51px;
+        padding-right: 1px;
+        margin: auto;
+        font-size: 20px;
+        }
+        .div-wich-contains-title-descrption-and-icon-4 p{
+            padding-left: 51px;
+            padding-right: 1px;
+            margin: auto;
+            font-size: 20px;
+            }
+.the-end-of-a-site-with-navigation{
+    text-align: center;
+    margin: auto;
+    padding-top: 90px;
+    padding-bottom: 20px;
+}

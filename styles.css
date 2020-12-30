@@ -23,7 +23,7 @@ header{
 }
 .this-contains-the-site-title-info-and-button{
     text-align: center;
-    margin-top: auto;
+   margin: auto;
     padding-top: 80px;
 }
 .this-contains-the-site-title-info-and-button button{

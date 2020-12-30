@@ -13,8 +13,8 @@ header{
 
 }
 .container-in-which-the-logo-and-mini-navigation img{
-    padding-left: 150px ;
-    margin-top: 10px ;
+   float: left;
+   padding-top: 10px;
 }
 .container-in-which-the-logo-and-mini-navigation p {
    float: right;

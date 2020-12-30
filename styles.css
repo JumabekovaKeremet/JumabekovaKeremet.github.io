@@ -21,6 +21,8 @@ header{
    margin: auto;
    padding-right:  80px ;
    color: black;
+   font-size: 18px;
+   text-align: right;
 }
 .this-contains-the-site-title-info-and-button{
     text-align: center;

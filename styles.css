@@ -36,4 +36,6 @@ header{
 .there-is-a-rounded-picture-in-the-middle{
     display: flex;
     justify-content: center;
+    margin: auto;
+    padding-top: 150px;
 }

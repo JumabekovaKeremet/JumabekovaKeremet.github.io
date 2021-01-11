@@ -99,4 +99,7 @@ footer{
 .div-wich-contains-title-descrption-and-icon-1 img{
     margin: auto;
     float: left;
+    margin: auto;
+    padding-top: 6px;
+    padding-right: 30px;
 }

@@ -64,3 +64,6 @@ header{
     padding-top: 20px;
     padding-right: 30px;
 }
+.this-div-has-an-icon-title-and-description img{
+    float: left;
+}

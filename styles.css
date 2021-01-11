@@ -2,6 +2,8 @@
 header{
     display: flex;
     flex-direction: column;
+    align-items: ;
+    justify-content: space-between;
     background-image: url(./image-\(2\).png); 
     background-size: cover;
     background-repeat: no-repeat;
@@ -10,13 +12,15 @@ header{
 
 }
 .container-in-which-the-logo-and-mini-navigation img{
+    display: flex;
+    align-items: center;
     padding-left: 150px ;
     margin-top: 10px ;
 }
 .container-in-which-the-logo-and-mini-navigation p {
     display: flex;
     justify-content: flex-end;
-    align-items: flex-start;
+    align-items: flex-end;
     flex-wrap: wrap;
     margin: auto;
     padding-right:  80px ;;
@@ -59,6 +63,9 @@ header{
    justify-content: flex-end;
     margin: auto;
    padding-top: 80px;
+}
+.there-is-a-slogan-a-subtitle-and-a-desc-1{
+    
 }
 .there-is-a-slogan-a-subtitle-and-a-desc{
 

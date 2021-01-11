@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    font-family: 'Playfair Display', serif;
+}
 header{
     display: flex;
     flex-direction: column;
@@ -23,9 +26,15 @@ header{
     align-items: flex-end;
     flex-wrap: wrap;
     margin: auto;
-    padding-right:  80px ;;
-    
+    padding-right:  80px;
+    color: black;
  }
+ .container-in-which-the-logo-and-mini-navigation p:visited{
+     color: black;
+ }
+ .container-in-which-the-logo-and-mini-navigation p:active{
+    color: black;
+}
  .this-contains-the-site-title-info-and-button{
     text-align: center;
     margin-bottom: 22px;
@@ -58,17 +67,17 @@ header{
     font-size: 32px;
     font-weight: 0;
 }
+main div{
+    text-align: left;
+}
 .the-container-in-wich-the-img-is-located{
    display: flex;
    justify-content: flex-end;
     margin: auto;
    padding-top: 80px;
 }
-.there-is-a-slogan-a-subtitle-and-a-desc-1{
-    
-}
-.there-is-a-slogan-a-subtitle-and-a-desc{
 
+.there-is-a-slogan-a-subtitle-and-a-desc{
     margin: auto;
     padding-left: 95px;
     padding-top: 85px;
@@ -167,4 +176,5 @@ footer{
 .the-end-of-a-site-with-navigation{
     text-align: center;
     margin: auto;
+    padding-top: ;
 }

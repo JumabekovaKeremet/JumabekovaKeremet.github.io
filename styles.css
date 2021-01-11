@@ -66,4 +66,7 @@ header{
 }
 .this-div-has-an-icon-title-and-description img{
     float: left;
+    margin: auto;
+    padding-top: 17px;
+    padding-right: 30px;
 }

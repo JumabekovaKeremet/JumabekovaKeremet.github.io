@@ -8,3 +8,8 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+.container-in-which-the-logo-and-mini-navigation-img{
+    justify-content: right;
+    width: 159,55px;
+    height: 44,48px;
+}

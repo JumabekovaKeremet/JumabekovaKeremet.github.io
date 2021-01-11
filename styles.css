@@ -81,4 +81,7 @@ header{
 }
 .this-icon-title-sptinkling-which-are-located-next-to-the-picture img{
     float: left;
+    margin: auto;
+    padding-top: 17px;
+    padding-right: 30px;
 }

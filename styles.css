@@ -18,6 +18,7 @@ header{
     flex-wrap: wrap;
     margin: auto;
     padding-right:  80px ;
+    padding-top: 22px;
  }
  .this-contains-the-site-title-info-and-button{
     text-align: center;

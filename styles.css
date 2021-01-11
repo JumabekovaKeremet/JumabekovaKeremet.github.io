@@ -110,6 +110,8 @@ footer{
     padding-top: 6px;
     padding-right: 30px;
 }
+
+inside this class there is a little information that will add indentation
 .div-wich-contains-title-descrption-and-icon-4 img{
     margin: auto;
     float: left;
@@ -129,4 +131,9 @@ footer{
     padding-right: 1px;
     margin: auto;
     font-size: 20px;
+}
+.div-wich-contains-title-descrption-and-icon-2 p{
+    padding-left: 51px;
+    padding-right: 1px;
+    margin: auto;
 }

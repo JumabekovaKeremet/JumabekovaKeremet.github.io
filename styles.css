@@ -49,4 +49,6 @@ header{
 }
 .the-container-in-wich-the-img-is-located{
     float: right;
+    margin: auto;
+   padding-top: 80px;
 }

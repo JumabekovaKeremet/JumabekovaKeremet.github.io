@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 *{
     display: flex;
+    flex-direction: column;
+}
+body{
+    background-image: url(./image-\(2\).png);
+    background-size: cover;
     
 }

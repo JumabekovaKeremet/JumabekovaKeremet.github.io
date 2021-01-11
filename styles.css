@@ -31,11 +31,17 @@ header{
     color: black;
 
  }
- .container-in-which-the-logo-and-mini-navigation p:visited{
+ .container-in-which-the-logo-and-mini-navigation p a:visited {
      color: black;
+     font-weight: bold;
  }
- .container-in-which-the-logo-and-mini-navigation p:active{
+ .container-in-which-the-logo-and-mini-navigation p a:active{
     color: black;
+    font-weight: bolld;
+}
+.container-in-which-the-logo-and-mini-navigation p a:hover{
+    color: black;
+    font-weight: bold;
 }
  .this-contains-the-site-title-info-and-button{
     text-align: center;
@@ -120,7 +126,8 @@ main div{
 footer{
     display: flex;
     justify-content: center;
-    padding-top: 160px;
+    text-align: center;
+    padding-top: 200px;
     padding-left: 95px;
     margin: auto;
 }
@@ -181,6 +188,18 @@ footer{
     margin: auto;
     padding-top: 100px;
     padding-bottom: 67px;
+}
+.the-end-of-a-site-with-navigation a:visited {
+    color: black;
+    font-weight: bold;
+}
+.the-end-of-a-site-with-navigation a:active{
+   color: black;
+   font-weight: bolld;
+}
+.the-end-of-a-site-with-navigation a:hover{
+   color: black;
+   font-weight: bold;
 }
 @media(max-width:730px){
     .container-in-which-the-logo-and-mini-navigation{

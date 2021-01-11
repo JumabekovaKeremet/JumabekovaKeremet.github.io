@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-*{
+header{
     display: flex;
     flex-direction: column;
-}
-body{
-    background-image: url(./image-\(2\).png);
+    background-image: url(./image-\(2\).png); 
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Playfair Display', serif;
+
 }
-.container-in-which-the-logo-and-mini-navigation-img{
-    justify-content: right;
-    width: 159,55px;
-    height: 44,48px;
+.container-in-which-the-logo-and-mini-navigation img{
+    padding-left: 150px ;
+    margin-top: 10px ;
 }

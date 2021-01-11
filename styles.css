@@ -13,7 +13,9 @@ header{
     margin-top: 10px ;
 }
 .container-in-which-the-logo-and-mini-navigation p {
-    justify-content: space-around;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     margin: auto;
     padding-right:  80px ;
  }
@@ -110,7 +112,7 @@ footer{
     padding-top: 6px;
     padding-right: 30px;
 }
-.div-wich-contains-title-descrption-and-icon-4 img{
+.div-wich-contains-title-descrption-and-icon-3 img{
     margin: auto;
     float: left;
     margin: auto;

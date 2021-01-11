@@ -19,5 +19,6 @@ header{
  }
  .this-contains-the-site-title-info-and-button{
     text-align: center;
-    
+    margin-top: auto;
+    padding-top: 80px;
 }

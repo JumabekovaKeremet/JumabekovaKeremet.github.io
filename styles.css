@@ -50,7 +50,8 @@ header{
     font-weight: 0;
 }
 .the-container-in-wich-the-img-is-located{
-    float: right;
+   display: flex;
+   justify-content: flex-end;
     margin: auto;
    padding-top: 80px;
 }

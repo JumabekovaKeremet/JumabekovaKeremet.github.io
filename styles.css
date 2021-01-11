@@ -5,13 +5,11 @@
 header{
     display: flex;
     flex-direction: column;
-    align-items: ;
     justify-content: space-between;
     background-image: url(./image-\(2\).png); 
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Playfair Display', serif;
-    height: ;
 
 }
 .container-in-which-the-logo-and-mini-navigation img{
@@ -19,6 +17,9 @@ header{
     align-items: center;
     padding-left: 150px ;
     margin-top: 10px ;
+}
+.container-in-which-the-logo-and-mini-navigation{
+    display: flex;
 }
 .container-in-which-the-logo-and-mini-navigation p {
     display: flex;
@@ -28,6 +29,7 @@ header{
     margin: auto;
     padding-right:  80px;
     color: black;
+
  }
  .container-in-which-the-logo-and-mini-navigation p:visited{
      color: black;
@@ -71,13 +73,14 @@ main div{
     text-align: left;
 }
 .the-container-in-wich-the-img-is-located{
-   display: flex;
-   justify-content: flex-end;
-    margin: auto;
-   padding-top: 80px;
+   float: right;
+    width: 400px;
+    height: 600px;
+    padding-top: 65px;
 }
 
 .there-is-a-slogan-a-subtitle-and-a-desc{
+ 
     margin: auto;
     padding-left: 95px;
     padding-top: 85px;
@@ -176,5 +179,23 @@ footer{
 .the-end-of-a-site-with-navigation{
     text-align: center;
     margin: auto;
-    padding-top: ;
+    padding-top: 100px;
+    padding-bottom: 67px;
+}
+@media(max-width:730px){
+    .container-in-which-the-logo-and-mini-navigation{
+        flex-direction: column;
+        max-width: 40%;
+        margin: 0 auto;
+    }
+    .container-in-which-the-logo-and-mini-navigation img{
+        padding-left: 0;
+        width: 80%;
+    }
+        .container-in-which-the-logo-and-mini-navigation  p{
+            padding-right: 0;
+        }
+        .container-in-which-the-logo-and-mini-navigation a{
+            text-align: center;
+        }
 }

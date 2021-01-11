@@ -138,3 +138,8 @@ inside this class there is a little information that will add indentation
     margin: auto;
    font-size: 20px;
 }
+.div-wich-contains-title-descrption-and-icon-3 p{
+    padding-left: 51px;
+    padding-right: 1px;
+    margin: auto;
+}

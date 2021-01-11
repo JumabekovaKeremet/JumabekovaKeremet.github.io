@@ -33,3 +33,7 @@ header{
    background-color: red;
    color: white;
 }
+.there-is-a-rounded-picture-in-the-middle{
+    display: flex;
+    justify-content: center;
+}

@@ -47,3 +47,6 @@ header{
     font-size: 32px;
     font-weight: 0;
 }
+.the-container-in-wich-the-img-is-located{
+    float: right;
+}

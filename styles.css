@@ -209,6 +209,7 @@ section{
 }
 .list-in-main{
     height: 100%;
+    font-size: 21px;
 }
 @media(max-width:830px){
     .footer-container{

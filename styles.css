@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:ital,wght@0,200;1,200&display=swap');
 *{
     font-family: 'Playfair Display', serif;
 }
@@ -83,6 +85,7 @@ header{
     max-width: 60%;
     margin: 0 auto;
     text-align: center;
+    font-family: Playfair Display;
 }
 main div{
     text-align: left;
@@ -197,6 +200,10 @@ footer{
     display: flex;
     margin-bottom: 60px;
 }
+.footer-container p{
+    font-size: 20px;
+    font-family: Source Sans Pro;
+}
 .footer-div{
     max-width: 75%;
     margin: 0 auto;
@@ -210,6 +217,11 @@ section{
 .list-in-main{
     height: 100%;
     font-size: 21px;
+}
+.list-in-main p{
+    font-size: 20px;
+    font-family:  Source Sans Pro;
+
 }
 @media(max-width:830px){
     .footer-container{

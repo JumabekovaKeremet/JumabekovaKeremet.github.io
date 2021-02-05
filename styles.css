@@ -33,15 +33,10 @@ header{
     margin: 0 auto;
     justify-content: space-between;
 }
-.container-in-which-the-logo-and-mini-navigation p {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    flex-wrap: wrap;
-    padding-right:  80px;
-    color: black;
+.header-div{
+display: flex;
 
- }
+}
  .container-in-which-the-logo-and-mini-navigation p a:visited {
      color: black;
      font-weight: bold;

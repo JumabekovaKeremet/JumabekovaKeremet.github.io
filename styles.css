@@ -27,15 +27,11 @@ header{
     padding-left: 150px ;
     margin-top: 10px ;
 }
-.container-in-which-the-logo-and-mini-navigation{
-    display: flex;
-    max-width: 70%;
-    margin: 0 auto;
-    justify-content: space-between;
-}
 .header-div{
 display: flex;
-
+max-width: 70%;
+margin: 0 auto;
+justify-content: space-between;
 }
  .container-in-which-the-logo-and-mini-navigation p a:visited {
      color: black;
@@ -249,7 +245,7 @@ section{
     }
 }
 @media(max-width:730px){
-    .container-in-which-the-logo-and-mini-navigation{
+    .header-div{
         flex-direction: column;
         max-width: 40%;
         margin: 0 auto;
